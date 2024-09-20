@@ -1,0 +1,142 @@
+/* Stylizacja ogólna */
+body {
+    font-family: Helvetica, sans-serif;
+    background-color: #F8F8FF; /* Jasne tło */
+    margin: 0;
+    padding: 0;
+}
+
+/* Wrapper dla całej strony */
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Blok lewy */
+.left {
+    width: 70%;
+    height: auto;
+    background-color: Snow;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+       
+}
+
+/* Stylizacja dla nagłówka w lewym bloku */
+.left h2 {
+    color: #1E90FF;
+    font-size: 300%;
+    text-transform: uppercase;
+    margin: 20px 0;
+    text-decoration: underline;
+
+} 
+  p{
+    text-align: left;
+}
+
+
+/* Obraz w lewym bloku */
+.left img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    padding: 4px;
+   
+}
+
+/* Bloki prawe */
+.right-container {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+  
+}
+
+
+
+
+/* Pierwszy prawy blok */
+.right1 {
+    height: 350px;
+    background-color: SteelBlue;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+/* Drugi prawy blok */
+.right2 {
+    height: 350px;
+    background-color: SteelBlue;
+    color: white;
+    padding: 10px;
+    box-sizing: border-box;
+
+}
+
+/* Trzeci prawy blok */
+.right3 {
+    height: 300px;
+    background-color: Snow;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+    
+
+}
+
+/* Lista w bloku prawym */
+ol {
+    color: white; /* Biały tekst dla listy w blokach prawych */
+    font-size: 1.2em;
+    margin-left: 20px;
+}
+
+/* Lista w bloku prawym */
+ol, ul {
+    margin: 0;
+    padding-left:20px; /* Opcjonalne, jeśli chcesz małe wcięcie */
+    list-style-position: inside; /* Kropki w środku obszaru listy */
+    text-align: left;
+}
+
+li {
+    margin-left: 10px; /* Dodanie niewielkiego marginesu dla lepszej czytelności */
+}
+
+a {
+    color: #1E90FF;
+    text-decoration: underline;
+}
+
+/* Obraz w trzecim prawym bloku */
+.right3 img {
+    max-width: 90%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    padding: 4px;
+}
+
+/* Efekt hover dla obrazów */
+img:hover {
+    padding: 3px;
+    border: 1px solid SteelBlue;
+}
+
+/* Stopka */
+footer {
+    clear: both;
+    background-color: #4682B4;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
